@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Historical Places of India</title>
+  </head>
+  <body>
+    <header class="head">
+      <h1>Historical Places of India</h1>
+    </header>
+    <div class="container">
+      <div class="img">
+        <img
+          class="img1"
+          src="https://www.holidify.com/images/cmsuploads/compressed/attr_1448_20190212100722jpg"
+          alt=""
+          width="500"
+          height="400"
+        />
+        <button class="btn">
+          <a href="https://en.wikipedia.org/wiki/Taj_Mahal">Taj Mahal</a>
+        </button>
+      </div>
+      <div class="img">
+      <img
+        class="img2"
+        src="https://www.holidify.com/images/cmsuploads/compressed/Qutub_Minar_in_the_monsoons_20170908115259.jpg"
+        alt=""
+        width="500"
+        height="400"
+      />
+      <button class="btn">
+        <a href="https://en.wikipedia.org/wiki/Qutb_Minar">Qutub Minar</a>
+      </div>
+      <div class="img">
+      <img
+        class="img3"
+        src="https://www.holidify.com/images/cmsuploads/compressed/h4_20170822181427.PNG"
+        alt=""
+        width="500"
+        height="400"
+      />
+    <button class="btn">
+      <a href="https://en.wikipedia.org/wiki/Hawa_Mahal">Hawa Mahal</a>
+    </button>
+    </div>
+    <div class="img">
+      <img
+        src="https://www.holidify.com/images/cmsuploads/compressed/IMG_20190222_165349_20190411155013.jpg"
+        alt=""
+        width="500"
+        height="400"
+      />
+      <button class="btn">
+        <a href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"
+          >Victoria Memorial</a>
+        </button>
+    </div>
+    <div class="img">
+      <img
+        src="https://www.holidify.com/images/cmsuploads/compressed/5621259188_e74d63cb05_b_20180302140149.jpg"
+        alt=""
+        width="500"
+        height="400"
+      />
+      <button class="btn">
+        <a href="https://en.wikipedia.org/wiki/India_Gate">India Gate</a>
+      </button>
+    </div>
+    <div class="img">
+      <img
+        src="https://www.holidify.com/images/cmsuploads/compressed/JallianwalaBagh_20200427125147.jpg"
+        alt=""
+        width="500"
+        height="400"
+      />
+      <button class="btn">
+        <a href="https://en.wikipedia.org/wiki/Jallianwala_Bagh"
+          >Jallianwala Bagh</a
+        >
+      </button>
+    </div>
+    <div class="img">
+      <img
+        src="https://www.holidify.com/images/cmsuploads/compressed/2872_20190402151343.jpg"
+        alt=""
+        width="500"
+        height="400"
+      />
+      <button class="btn">
+        <a href="https://en.wikipedia.org/wiki/Konark">Konark</a>
+      </button> 
+    </div>
+    <div class="img">
+      <img
+        src="https://www.holidify.com/images/compressed/attractions/attr_1724.jpg"
+        alt=""
+        width="500"
+        height="400"
+      />
+   <button class="btn">
+      <a href="https://en.wikipedia.org/wiki/Red_Fort">Red Fort</a>
+    </button>  
+    </div>
+    <div class="img">
+      <img
+        src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_694433434_20191213110339_20191213110412.png"
+        alt=""
+        width="500"
+        height="400"
+      />
+      <button class="btn">
+        <a href="https://en.wikipedia.org/wiki/Elephanta_Caves"
+          >Elephanta Caves</a
+        >
+      </button>
+    </div>
+    </div>
+    <div class="song">
+      <audio src="jana.mp3" controls></audio>
+    </div>
+    <footer class="foot">
+      <h2>Designed And Developed By Himansu Behera</h2>
+    </footer>
+  </body>
+</html>
+
+CSS 
+.head {
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background-image: linear-gradient(90deg, orange, white, green);
+  color: maroon;
+  text-align: center;
+  position: fixed;
+}
+.foot {
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  background-image: linear-gradient(120deg, orange, white, green);
+  color: green;
+  text-align: center;
+  position: fixed;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: auto;
+  height: auto;
+  gap: 12px;
+}
+
+.img {
+  font-size: 20px;
+  font-weight: 600;
+  background-image: linear-gradient(to right, orange, white, green);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 9px;
+  text-align: center;
+  margin-bottom: 44px;
+}
+
+.btn {
+  font-size: 20px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, orange, white, green);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 9px;
+  text-align: center;
+}
+
+.song {
+  margin-bottom: 42px;
+}
